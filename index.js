@@ -1,4 +1,4 @@
-const school = [
+let `school` = [
     'name': 'average class size', 
     'mascot':
 ]
