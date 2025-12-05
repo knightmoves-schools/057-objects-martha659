@@ -1,7 +1,10 @@
-const school = { 
-    'name', 
-    'average class size',
-    'mascot'
+
+const school = {
+  name: "Riverdale High",
+  averageClassSize: 25,
+  mascot: "Bulldog"
 };
 
-document.getElementById("result").innerHTML = '${name} has an average class size of ${average class size} and their mascot is a ${mascot}';
+
+document.getElementById("result").innerHTML =
+  `${school.name} has an average class size of ${school.averageClassSize} and their mascot is a ${school.mascot}.`;
