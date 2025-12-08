@@ -1,7 +1,7 @@
 const school = { 
     name: 'meskwaki',
-    averageClassSize: 3,
+    'average class size': 3,
     mascot: 'hawk'
 };
 
-document.getElementById("result").innerHTML = `${school.name} has an average class size of ${school.averageClassSize} and their mascot is a ${school.mascot}`;
+document.getElementById("result").innerHTML = `${school.name} has an average class size of ${school.'average class size'} and their mascot is a ${school.mascot}`;
