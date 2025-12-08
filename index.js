@@ -1,6 +1,6 @@
 const school = { 
-    name: 'meskwaki'
-    averageClassSize: 3
+    name: 'meskwaki',
+    averageClassSize: 3,
     mascot: 'hawk'
 };
 
